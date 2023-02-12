@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  color: #ececec;
+  height: 60px;
+  border-bottom: 1px solid #ececec;
+  @include minW-Tablet {
+    height: 80px;
+  }
+
+  
+& a,
+& ul,
+& li,
+& nav {
+  height: 100%;
+}
+
+&__elements {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  }
+
+}
